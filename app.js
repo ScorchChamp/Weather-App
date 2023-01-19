@@ -1,3 +1,4 @@
+window.addEventListener("load", function () {
 let coords;
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -36,4 +37,5 @@ navigator.geolocation.getCurrentPosition(async function (position) {
         }
     });
 
+});
 });
